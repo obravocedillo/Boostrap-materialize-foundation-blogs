@@ -1,0 +1,155 @@
+body{
+    background-image: url("../images/fondo4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+
+}
+
+.container{
+    background: rgb(220, 247, 243,.8)
+}
+
+.logo{
+    width: 45%;
+}
+
+.logo-div{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.navigation-div{
+    margin-top: 5vh;
+}
+
+.slogan p{
+    font-family: 'Pangolin', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: #0288d1;
+}
+
+.navigation-top-part{
+    margin-top: 15vh;
+}
+
+.list-inline li{
+    display: inline-block;
+    margin-left: 3%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.list-inline li:hover{
+    font-size: 1.2em;
+}
+
+.active{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.parte-superior{
+    margin-bottom: 0%;
+    background: rgb(220, 247, 243,.)
+}
+
+
+.icon-part{
+    margin-top: 2vh;
+}
+
+.tapalpa{
+    width: 100%;
+}
+
+.iglesia{
+    width: 100%;
+}
+
+.piedrotas{
+    margin-top: 4vh;
+    width: 100%;
+}
+
+.lago{
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.portrait{
+    width: 50%;
+}
+
+.autor{
+    text-align:center;
+
+}
+
+.entradas{
+    text-align: center;
+
+
+}
+
+.magico{
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.next-image p{
+    text-align: left;
+}
+
+
+
+@media (max-width: 993px) {
+    .logo{
+        width: 20%;
+    }
+
+    .logo-div{
+        text-align: center;
+    }
+
+    .navigation-div{
+        margin-top: 0%;
+    }
+
+    .slogan{
+
+        margin-top: 0%;
+    }
+
+    .slogan p{
+        margin-top: 0%;
+        font-size: 1.5em;
+    }
+
+    .navigation-top-part{
+        margin-top: 0%;
+    }
+
+    .list-inline li{
+        display: block;
+        margin-left: 0%;
+        text-align:center;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .parte-iconos{
+        display:none;
+    }
+
+    .div-imagenes{
+        display: none;
+    }
+
+    .entradas{
+        text-align: center;
+        border-right: 0px solid black;
+
+    }
+
+}

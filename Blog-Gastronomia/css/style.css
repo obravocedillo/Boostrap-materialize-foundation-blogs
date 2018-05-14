@@ -1,0 +1,116 @@
+body{
+    background-image: url("../images/fondo.jpg");
+    
+
+}
+
+.nav-bar-part{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    border-bottom: 1px solid black;
+}
+
+
+.title{
+    text-align: center;
+
+}
+
+.slogan{
+    text-align: right;
+}
+
+.slogan h5{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.title h2{
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0px;
+}
+
+.input-group-rounded .input-group-field {
+  border-radius: 5000px 0 0 5000px;
+  padding-left: 1rem;
+}
+
+.input-group-rounded .input-group-button .button {
+  border-radius: 0 5000px 5000px 0;
+  font-size: 0.8rem;
+}
+
+.historial{
+    margin-top: .5vh;
+    border-radius: 6px;
+    margin-bottom: .5vh;
+    background: #cfe7f9;
+}
+
+li a:hover{
+    color: #000814;
+}
+
+.left-bar-navigation{
+    margin-bottom: 5vh;
+
+}
+
+.gallery-favorite{
+    margin-top: 2vh;
+    padding: .7rem ;
+}
+
+
+.gallery-favorite2{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: .7rem ;
+}
+
+.main-part-foto{
+    margin-left: 1%;
+}
+
+.card-section{
+    padding: .4%;
+    margin-left: 1%;
+}
+
+.card-section p{
+    margin-bottom: 0px;
+}
+
+.card-section h3{
+    margin-bottom: 0px;
+}
+
+.first-entry{
+    border-bottom: 1px solid black;
+    margin-bottom: 2vh;
+}
+
+.grid-container{
+    background: rgb(221, 241, 255, 0.6);
+
+}
+
+
+ @media (max-width: 1024px) {
+     .left-bar-navigation{
+         display: none;
+     }
+
+     .top-left-bar-navigation .slogan{
+        text-align: center;
+     }
+
+     .card-section h3{
+         text-align: center;
+     }
+
+    .card-section{
+        text-align: center;
+    }
+
+
+ }

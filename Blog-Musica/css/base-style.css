@@ -1,0 +1,129 @@
+.container{
+    background: #bfc3c9;
+}
+
+.top-section{
+    background-color: #c7dbf9;
+}
+
+.logo-section .logo{
+    width: 15%;
+}
+
+.social-section{
+    padding-top: 8%;
+}
+
+.nav{
+    background-color: #FFFFFF;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.navigation{
+    text-align: center;
+
+}
+
+
+.nav a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.nav a:hover{
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animation {
+    from{
+        font-size: 1em;
+
+    }to{
+        font-size:  1.4em;
+    }
+}
+
+.element:hover{
+    background-color: white;
+
+}
+
+.element{
+    border-radius: 6px;
+}
+
+.first-content-section{
+    margin-top: 5%;
+    margin-right:0%;
+}
+
+.first-information{
+    margin-top: 5%;
+    margin-right: 0%;
+
+}
+
+#park{
+    width: 80%;
+    margin-top: 30%;
+}
+
+.first-photo{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.busqueda{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.boton{
+    margin-left: 5%;
+}
+
+.search{
+    text-align: center;
+}
+
+
+
+@media (max-width: 992px) {
+    .social-section .social-media{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .logo-section .logo{
+        width: 30%;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .first-information{
+        margin-top: 0%;
+        margin-right: 0%;
+        text-align: center;
+
+    }
+
+    #park{
+        width: 60%;
+        margin-top: 0%;
+    }
+
+    .content-music{
+        text-align: center;
+    }
+
+}
